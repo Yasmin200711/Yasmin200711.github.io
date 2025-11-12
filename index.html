@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel = "stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tagesschrift&display=swap" rel="stylesheet">
+</head>
+<body >
+<header>
+ <h1>Curriculo Yasmin Miranda Soares </h1>
+</header>
+<div id="mySidebar" class="sidebar"> 
+    <a href="javascript:void(0)"  class="closebtn" onclick="closeNav()">×</a>
+    <a href="#DadosPessoais">Dados Pessoais</a>
+    <a href="#Formaçâo">Formação</a>
+    <a href="#Habilidades">Habilidades</a>
+    <a href="#conhecimento">Conhecimento</a>
+    <a href="#Idiomas">Idiomas</a>
+    <a href="#Meu Portfólio">Meu Portfólio</a>
+  </div>  <!-- Conteúdo principal -->
+  <div id="main"> 
+    <button class="openbtn" onclick="openNav()">☰ Menu</button>
+        
+  
+ <img src="imagem/Perfil.jpg" width="200" height="200">
+ 
+<article id="centro"><p>Sou estudante do ensino Técnico Integrado ao Ensino médio do curso de jogos digitais, apaixonada por modelagem 3D e ilustração 2D,com experiência no software Blender e conhecimento em Inkscape, voltados para jogos e projetos criativos. Além disso, possuo habilidades em planilhas para controle de gastos. Sou curiosa, estou sempre disposta a aprender e enfrentar novos desafios. Busco oportunidades que me permitam aplicar e expandir meus conhecimentos na área.
+</p></article>
+
+<article><section id="DadosPessoais"></section>
+<h2>Dados pessoais</h2>
+<p>Nome:Yasmin Miranda Soares</p>
+<p>Email:Mirayasmin2007@gmail</p>
+<p>Numero:(41)99241-7250</p></article>
+  
+<article><section id="Formação"></section>
+<h2>Formação </h2><ul>
+<li>Ensino Técnico Integrado ao Ensino médio de  Programação de Jogos Digitais </li>
+<li> Instituto Federal do Paraná.</li>
+<li> 2022 - Em Andamento.</li>
+<li> Ensino Fundamental </li>
+<li> Yvone Pimentel </li>
+<li> 2018-2021</li>
+</ul></article>
+<article>
+<section id="Conhecimento"></section>
+<h2>Conhecimento</h2>
+<ul>
+<li> Linguagem de programação: C, C++, C# e JavaScript</li>
+<li> Linguagem de marcação/texto: HTML5</li>
+<li> Linguagem de folha de estilo: CSS</li>
+<li> Ambiente de desenvolvimento utilizado: Motor Gráfico Unity, Visual Studio, Code Blocks. Software de Modelagem: Blender </li>
+<li> Software de Ilustração: Inkscape </li>
+<li> Software de Som: Fmod, Audacity e Nuendo.</li>
+</ul>
+</article>
+<article>
+<section id="Habilidades"></section>
+<h2>Habilidades</h2>
+<ul>
+    <li> Modelagem 3D (experiência com Blender)</li>
+    <li> Ilustração 2D (conhecimento em Inkscape)</li>
+    <li> Desenvolvimento de jogos digitais</li>
+</ul></article>
+
+<article>
+<section id="Idiomas"></section>
+<h2>Idiomas</h2>
+<ul>
+<li> Inglês - básico</li>
+<li> Francês - básico</li>
+<li> Linguagem de folha de estilo: CSS</li>
+<li> Portugues- Fluente</li>
+</ul></article>
+    
+
+<div class="carrossel-container">
+    <article id="centro">
+<section id="Meu Portfólio"></section>
+    <h2>Meu Portfólio</h2>
+</article>
+    <div class="carrossel">
+      
+      <!-- Botão para ir para a imagem anterior -->
+      <button class="carrossel-btn" onclick="mudarImagens(-1)">&#10094;</button>
+  
+      <!-- Área onde as imagens serão inseridas dinamicamente -->
+      <div class="carrossel-imagens" id="carrossel-imagens">
+        <!-- Imagens serão inseridas via JavaScript -->
+      </div>
+  
+      <!-- Botão para ir para a próxima imagem -->
+      <button class="carrossel-btn" onclick="mudarImagens(1)">&#10095;</button>
+  
+    </div>
+  </div>
+
+
+         
+    <footer>
+        <p>&copy; 2025 Yasmin Miranda   - Todos os direitos reservados.</p>
+        <div class="botoes-fontes">
+    <button class="botao-estilizado"; onclick="mudarFonte('Comic Relief', 800)">Comic Relief</button>
+    <button class="botao-estilizado"; onclick="mudarFonte('Tagesschrift', 800)">Tagesschrift</button>
+    <button class="botao-estilizado"; onclick="mudarFonte('Playfair Display')">Playfair Display</button>
+        </div>
+    </footer>   
+</div>
+<script src="JavaScript/script.js"></script> 
+</body>
+</html>
